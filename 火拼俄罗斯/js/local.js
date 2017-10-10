@@ -27,7 +27,7 @@ var local = function() {
 		}
 		game = new Game();
 		game.init(doms);
-		bindKeyEvent()
+		bindKeyEvent();
 	}
 	// 导出API
 	this.start = start;
